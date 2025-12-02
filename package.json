@@ -47,7 +47,7 @@
       "last 1 safari version"
     ],
   "scripts": {
-  "start": "node server.js",
+  "start": "node server.js"
 
 }
 
