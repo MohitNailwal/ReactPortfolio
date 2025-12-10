@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Bot, User } from 'lucide-react';
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
 function Chat() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,8 +31,11 @@ function Chat() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: newMessages }),
-      });
+        
+      }
 
+  );
+    console.log('msg', newMessages)
       const data = await res.json();
       setLoading(false);
 
