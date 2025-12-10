@@ -238,7 +238,7 @@ const Portfolio = () => {
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
-          <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
+          <ul className={`nav-links ${mobileMenuOpen ? "active" : ""}`}>
             <li>
               <a href="#" onClick={closeMobileMenu}>
                 Home
@@ -493,15 +493,40 @@ const Portfolio = () => {
                 </a>
               </h4>
               <ul>
-                <li>Monitor airport operational systems such as Flight Information Display Systems (FIDS), Airport Operational Database (AODB), Baggage Handling Systems (BHS) software, and Passenger Processing Systems.</li>
-                            <li>Respond to application issues raised by airport staff, operations team, and stakeholders.</li>
-                            <li>Troubleshoot application errors, analyze root causes, and escalate to vendors when required.
-                            </li>
-                            <li>Maintain incident logs and ensure timely resolution based on SLAs.</li>
-                            <li>Support configuration changes, software updates, and patches for operational systems.</li>
-                            <li>Maintain detailed SOPs, user guides, technical documentation, and change management records.</li>
-                            <li>Provide on-call or shift-based support to maintain high system availability.</li>
-                            <li>Ensure smooth functioning of all airport applications during peak operations.</li>
+                <li>
+                  Monitor airport operational systems such as Flight Information
+                  Display Systems (FIDS), Airport Operational Database (AODB),
+                  Baggage Handling Systems (BHS) software, and Passenger
+                  Processing Systems.
+                </li>
+                <li>
+                  Respond to application issues raised by airport staff,
+                  operations team, and stakeholders.
+                </li>
+                <li>
+                  Troubleshoot application errors, analyze root causes, and
+                  escalate to vendors when required.
+                </li>
+                <li>
+                  Maintain incident logs and ensure timely resolution based on
+                  SLAs.
+                </li>
+                <li>
+                  Support configuration changes, software updates, and patches
+                  for operational systems.
+                </li>
+                <li>
+                  Maintain detailed SOPs, user guides, technical documentation,
+                  and change management records.
+                </li>
+                <li>
+                  Provide on-call or shift-based support to maintain high system
+                  availability.
+                </li>
+                <li>
+                  Ensure smooth functioning of all airport applications during
+                  peak operations.
+                </li>
               </ul>
             </div>
           </div>

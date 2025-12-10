@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./blogcss.css";
 
 import {
@@ -17,14 +17,18 @@ import {
   Instagram,
   Linkedin,
   Twitter,
-  Menu,
-  X,
 } from "lucide-react";
 
 export default function Blog() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   useEffect(() => {
+    // Mobile menu
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger?.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+
     // Scroll animation
     const cards = document.querySelectorAll(".project-card");
     const observer = new IntersectionObserver(
@@ -46,11 +50,6 @@ export default function Blog() {
       observer.observe(card);
     });
   }, []);
-
-  // Function to close mobile menu
-  const closeMobileMenu = () => {
-    setMobileMenuOpen(false);
-  };
 
   return (
     <div className="blog-page">
@@ -74,34 +73,29 @@ export default function Blog() {
             </a>
           </div>
 
-          <button
-            className="hamburger"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <X size={24} color="white" /> : <Menu size={24} color="white" />}
-          </button>
+          <div id="hamburger">☰</div>
 
-          <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
+          <ul id="nav-links">
             <li>
-              <a href="/" onClick={closeMobileMenu}>Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="/#about" onClick={closeMobileMenu}>About</a>
+              <a href="/#about">About</a>
             </li>
             <li>
-              <a href="/#experience" onClick={closeMobileMenu}>Experience</a>
+              <a href="/#experience">Experience</a>
             </li>
             <li>
-              <a href="/#contact" onClick={closeMobileMenu}>Contact</a>
+              <a href="/#contact">Contact</a>
             </li>
             <li>
-              <a href="/#skills" onClick={closeMobileMenu}>Skills</a>
+              <a href="/#skills">Skills</a>
             </li>
             <li>
-              <a href="/#certifications" onClick={closeMobileMenu}>Certifications</a>
+              <a href="/#certifications">Certifications</a>
             </li>
             <li>
-              <a href="/blog" onClick={closeMobileMenu}>Blogs</a>
+              <a href="/blog">Blogs</a>
             </li>
           </ul>
         </div>
