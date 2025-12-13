@@ -475,11 +475,11 @@ const Portfolio = () => {
           <div className="exp-item">
             <div className="exp-image">
               <a
-                href="https://www.alpha.ae/"
+                href="https://www.sharjahairport.ae/en/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="./alpha_data_2_logo.jfif" alt="ALpha Data PJSC" />
+                <img src="./Sharjah_Airport_logo.svg.png" alt="Sharjah Airport" />
               </a>
             </div>
             <div className="exp-info">
@@ -489,7 +489,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Application Support Engineer – Alpha Data PJSC, Sharjah, UAE
+                  Application Support Engineer – Sharjah Airport, UAE
                 </a>
               </h4>
               <ul>
