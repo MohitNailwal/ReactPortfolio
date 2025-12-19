@@ -314,7 +314,7 @@ const Portfolio = () => {
             {showButtons && (
               <div className="btns" style={{ marginTop: 38 }}>
                 <a
-                  href="https://drive.google.com/file/d/1p16KLeqTEMtPXl-gJi7gObl9kpcJXr5E/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1_RGHIi035kWuSKHhsFKQsEyFHZzDertc/view?usp=drive_link"
                   target="_blank"
                   className="btn"
                 >
@@ -489,44 +489,23 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Application Support Engineer – Sharjah Airport, UAE
+                  Application Support Engineer – Sharjah Airport - (Alpha Data PJSC), UAE
                 </a>
               </h4>
               <ul>
-                <li>
-                  Monitor airport operational systems such as Flight Information
-                  Display Systems (FIDS), Airport Operational Database (AODB),
-                  Baggage Handling Systems (BHS) software, and Passenger
-                  Processing Systems.
-                </li>
-                <li>
-                  Respond to application issues raised by airport staff,
-                  operations team, and stakeholders.
-                </li>
-                <li>
-                  Troubleshoot application errors, analyze root causes, and
-                  escalate to vendors when required.
-                </li>
-                <li>
-                  Maintain incident logs and ensure timely resolution based on
-                  SLAs.
-                </li>
-                <li>
-                  Support configuration changes, software updates, and patches
-                  for operational systems.
-                </li>
-                <li>
-                  Maintain detailed SOPs, user guides, technical documentation,
-                  and change management records.
-                </li>
-                <li>
-                  Provide on-call or shift-based support to maintain high system
-                  availability.
-                </li>
-                <li>
-                  Ensure smooth functioning of all airport applications during
-                  peak operations.
-                </li>
+               <li>Provide end-to-end application support for 60+ airport applications.</li>
+                            <li>Handle incidents, service requests, and user access/role management using ManageEngine
+                                ITSM and AD Manager Plus.</li>
+                            <li>Maintain and troubleshoot Oracle-based applications including PL/SQL procedures, Oracle
+                                Forms, and backend components, and support PHP and ASP.NET MVC / C# applications, including bug fixing,
+                                performance monitoring, and updates.</li>
+                            <li>Monitor critical airport systems such as FIDS, AODB, Passenger Processing Systems,
+                                APIs, logs, batch jobs.</li>
+                            <li>Respond to application issues raised by airport operations teams
+                                performing root cause analysis.</li>
+                            <li>Coordinate with vendors, airport authorities, and internal IT teams to resolve critical
+                                production incidents within SLAs & Support configuration changes, software patches, and releases while maintaining SOPs,
+                                documentation, and change records.</li>
               </ul>
             </div>
           </div>
