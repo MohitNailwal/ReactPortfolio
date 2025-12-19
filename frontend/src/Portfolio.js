@@ -485,7 +485,7 @@ const Portfolio = () => {
             <div className="exp-info">
               <h4>
                 <a
-                  href="hhttps://www.alpha.ae/"
+                  href="https://www.sharjahairport.ae/en/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
