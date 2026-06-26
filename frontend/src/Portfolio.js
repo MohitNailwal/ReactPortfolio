@@ -314,7 +314,7 @@ const Portfolio = () => {
             {showButtons && (
               <div className="btns" style={{ marginTop: 38 }}>
                 <a
-                  href="https://drive.google.com/file/d/1jg1GV_SQfTiZqD62VjrVj9-dYJ3gy-Ou/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1jg1GV_SQfTiZqD62VjrVj9-dYJ3gy-Ou/view?usp=drive_link"
                   target="_blank"
                   className="btn"
                 >
